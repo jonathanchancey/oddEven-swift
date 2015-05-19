@@ -13,6 +13,10 @@
 		EF237B921AEEE622006E16C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF237B911AEEE622006E16C0 /* Images.xcassets */; };
 		EF237B951AEEE622006E16C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF237B931AEEE622006E16C0 /* LaunchScreen.xib */; };
 		EF237BA11AEEE622006E16C0 /* oddEvenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF237BA01AEEE622006E16C0 /* oddEvenTests.swift */; };
+		EF237BAB1AEFEBE2006E16C0 /* oddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF237BAA1AEFEBE2006E16C0 /* oddViewController.swift */; };
+		EF237BAD1AEFEBED006E16C0 /* evenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF237BAC1AEFEBED006E16C0 /* evenViewController.swift */; };
+		EF237BAF1AEFEBF6006E16C0 /* notViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF237BAE1AEFEBF6006E16C0 /* notViewController.swift */; };
+		EFA38F6A1B068E5700C3EBEB /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA38F691B068E5700C3EBEB /* aboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		EF237B9A1AEEE622006E16C0 /* oddEvenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oddEvenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF237B9F1AEEE622006E16C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF237BA01AEEE622006E16C0 /* oddEvenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddEvenTests.swift; sourceTree = "<group>"; };
+		EF237BAA1AEFEBE2006E16C0 /* oddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oddViewController.swift; sourceTree = "<group>"; };
+		EF237BAC1AEFEBED006E16C0 /* evenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = evenViewController.swift; sourceTree = "<group>"; };
+		EF237BAE1AEFEBF6006E16C0 /* notViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notViewController.swift; sourceTree = "<group>"; };
+		EFA38F691B068E5700C3EBEB /* aboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				EF237B8A1AEEE621006E16C0 /* AppDelegate.swift */,
 				EF237B8C1AEEE621006E16C0 /* ViewController.swift */,
 				EF237B8E1AEEE621006E16C0 /* Main.storyboard */,
+				EFA38F691B068E5700C3EBEB /* aboutViewController.swift */,
+				EF237BAA1AEFEBE2006E16C0 /* oddViewController.swift */,
+				EF237BAC1AEFEBED006E16C0 /* evenViewController.swift */,
+				EF237BAE1AEFEBF6006E16C0 /* notViewController.swift */,
 				EF237B911AEEE622006E16C0 /* Images.xcassets */,
 				EF237B931AEEE622006E16C0 /* LaunchScreen.xib */,
 				EF237B881AEEE621006E16C0 /* Supporting Files */,
@@ -212,6 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF237BAD1AEFEBED006E16C0 /* evenViewController.swift in Sources */,
+				EF237BAB1AEFEBE2006E16C0 /* oddViewController.swift in Sources */,
+				EFA38F6A1B068E5700C3EBEB /* aboutViewController.swift in Sources */,
+				EF237BAF1AEFEBF6006E16C0 /* notViewController.swift in Sources */,
 				EF237B8D1AEEE621006E16C0 /* ViewController.swift in Sources */,
 				EF237B8B1AEEE621006E16C0 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +423,7 @@
 				EF237BA61AEEE622006E16C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF237BA71AEEE622006E16C0 /* Build configuration list for PBXNativeTarget "oddEvenTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				EF237BA91AEEE622006E16C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
